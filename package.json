@@ -2,6 +2,7 @@
   "name": "faculdog",
   "version": "0.1.0",
   "description": "Faculdog Website and App",
+  "repository": "https://github.com/KoalasHut/faculdog.git",
   "author": "Diego Yungh <diego.yungh@gmail.com>",
   "main": "index.js",
   "scripts": {
