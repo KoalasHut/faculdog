@@ -1,0 +1,19 @@
+{
+  "name": "faculdog",
+  "version": "0.1.0",
+  "main": "public/css/app.less",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "requirejs": "*",
+    "animate.less": "*",
+    "bootstrap": "*",
+    "dustjs-linkedin": "*",
+    "destjs-linkedin-helpers": "*",
+    "font-awesome": "*",
+    "superslides": "*"
+  }
+}
