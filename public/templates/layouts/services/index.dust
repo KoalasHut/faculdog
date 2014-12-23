@@ -1,0 +1,7 @@
+{>"layouts/sub" /}
+
+{<content-title}Serviços{/content-title}
+
+{<content class="services-default"}
+	
+{/content}

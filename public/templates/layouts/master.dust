@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{+title /}</title>
+
+	{>"layouts/meta" /}
+	
+    <link rel="stylesheet" href="/components/superslides/dist/stylesheets/superslides.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+
+</head>
+<body>
+	<div id="wrapper" class="container-fluid">
+
+		{>"layouts/header" /}
+
+		<div class="row">
+			<div class="col-xs-12 body">
+	    		{+body /}
+			</div>
+		</div>
+
+		{>"layouts/footer" /}
+
+	</div>
+	<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+	<script data-main="/js/app" src="/components/jquery/dist/jquery.min.js"></script>
+	<script data-main="/js/app" src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script data-main="/js/app" src="/components/superslides/dist/jquery.superslides.min.js"></script>
+</body>
+</html>

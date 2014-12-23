@@ -1,0 +1,20 @@
+{# items}
+	{?children}
+	<div class="btn-group">
+	  	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	    	{label} <span class="caret"></span>
+	  	</button>
+	  	<ul class="dropdown-menu" role="menu">
+	  		{# children}
+	    	<li><a href="{href}">{label}</a></li>
+	    	{/ children}
+	  	</ul>
+	</div>	
+	{:else}
+	<button type="button" class="btn btn-default">
+		<a href="{href}">
+			{label}
+		</a>
+	</button>
+	{/children}
+{/ items}

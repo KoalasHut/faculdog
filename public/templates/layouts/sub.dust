@@ -1,0 +1,12 @@
+{>"layouts/master" /}
+
+{<body}
+	<div class="row">
+		<div class="col-xs-12 sub-title">
+			<h1>{+content-title/}</h1>
+		</div>
+		<div class="col-xs-12 sub-content {class}">
+			{+content /}
+		</div>
+	</div>
+{/body}

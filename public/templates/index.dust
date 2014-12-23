@@ -1,0 +1,6 @@
+{>"layouts/master" /}
+
+{<body}
+	<div class="btn btn-lg btn-primary">OH MY BUTTON</div>
+    <h1>{@pre type="content" key="greeting"/}</h1>
+{/body}

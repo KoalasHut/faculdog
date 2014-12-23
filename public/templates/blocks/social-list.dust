@@ -1,0 +1,9 @@
+<ul class="nav nav-pills">
+	{# items}
+	<li>
+		<a href="{href}">
+			<img src="{image.src}" alt="social {title}" title="{title}" width="35" height="35">
+		</a>
+	</li>
+	{/ items}
+</ul>

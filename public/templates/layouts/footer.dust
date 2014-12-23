@@ -1,0 +1,26 @@
+<div class="row footer">
+	<div class="col-xs-12 col-md-8 col-md-offset-2">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<div class="row">
+					<div class="col-xs-12 logo">
+						{>"blocks/logo" width="200" height="120"/}
+					</div>
+					<div class="col-xs-12 text-center info">
+						<p>{owner.cellphone}</p>
+						<p>{owner.phone}</p>
+					</div>
+				</div>
+			</div>
+			<!-- Social -->
+			<div class="col-xs-12 col-sm-4 social">
+				{>"blocks/social-list" items=socials /}
+			</div>
+			
+			<!-- Cute dog -->
+			<div class="hidden-xs col-sm-4 footer-image">
+				<img class="img-responsive" src="/images/footer/footer-dog.png" alt="dog" title="dog">
+			</div>
+		</div>
+	</div>
+</div>

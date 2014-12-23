@@ -1,0 +1,50 @@
+<div class="row client-support">
+	<div class="col-xs-12 text-right">
+		<a href="tel:{owner.phoneRaw}" class="text-uppercase">Atendimento ao cliente: {owner.phone}</a>
+	</div>
+</div>
+
+<div class="row top-nav">
+
+	<!-- Logo image -->
+	<div class="col-xs-12 col-sm-4 logo">
+		{>"blocks/logo" width="250" height="150"/}
+	</div>
+
+	<div class="col-xs-12 col-sm-8 nav">
+		<div class="row">
+
+			<!-- Social List -->
+			<div class="col-xs-12 col-sm-8 social">
+				{>"blocks/social-list" items=socials /}
+			</div>
+
+			<!-- Search Input -->
+			<div class="col-xs-12 col-sm-4 search">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Digite sua busca aqui...">
+					<span class="input-group-btn">
+						<span class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</span>
+					</span>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Divider -->
+		<hr class="social-menu-divider hidden-xs">
+
+		<div class="row">
+
+			<!-- Dropdown Menu -->
+			<div class="col-sm-12 hidden-xs menu">
+				<div class="btn-group" role="nav">
+					{>"blocks/menu" items=menuOptions /}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

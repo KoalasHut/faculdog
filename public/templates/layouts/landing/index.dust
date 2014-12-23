@@ -1,0 +1,74 @@
+{>"layouts/master" /}
+
+{<body}
+	<div class="row">
+		<div class="col-xs-12 landing">
+			
+			<!-- Full width slider -->
+			<div class="row hidden-xs">
+				{>"blocks/fullwidth-slider" slides=landingSlider.slides /}
+			</div>
+
+			<!-- Services list -->
+			<div class="row services">
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
+					<div class="row">
+						{# services}
+						<div class="col-xs-12 col-sm-6 col-md-3 text-center service">
+							<img src="{image.src}" width="180" alt="{title} - {subtitle}" class="img-responsive center-block">
+							<h2>{title}</h2>
+							<h4>{subtitle}</h4>
+						</div>
+						{/ services}
+					</div>
+				</div>
+			</div>
+
+			<!-- About -->
+			<div class="row about">
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
+					<div class="row">
+						<div class="hidden-xs col-sm-4">
+							<img src="/images/about/about-01-blue.png" class="img-responsive center-block" alt="about">
+						</div>
+						<div cla ss="col-xs-12 col-sm-8">
+							<h1>Sobre a <strong>Faculdog</strong></h1>
+							<p>Criada em 1998 pelo zootecnista Alexandre Rossi, a Cão Cidadão é uma empresa especializada em adestramento em domicílio e em consultas de comportamento. Sua missão é melhorar a integração do cão na família e na sociedade, por meio da educação. </p>
+							<p>Todos os franqueados da Cão Cidadão são treinados e constantemente avaliados, e utilizam o método Adestramento Inteligente – fundamentado em estímulos positivos e em recompensas, o que desperta nos animais o interesse em aprender. </p>
+							<p>A Cão Cidadão ainda promove cursos, palestras, workshops e eventos com foco nos mais diversos públicos: dos profissionais que atuam na área a proprietários interessados em compreender e a educar o bicho de estimação.</p>
+							<p>A Cão Cidadão ainda promove cursos, palestras, workshops e eventos com foco nos mais diversos públicos: dos profissionais que atuam na área a proprietários interessados em compreender e a educar o bicho de estimação.</p>
+							<p>A Cão Cidadão ainda promove cursos, palestras, workshops e eventos com foco nos mais diversos públicos: dos profissionais que atuam na área a proprietários interessados em compreender e a educar o bicho de estimação.</p>
+						</div>
+					</div>
+
+					<hr>
+
+					<div class="row">
+						<div class="hidden-xs col-sm-4">
+							<img src="/images/about/about-03-blue.png" class="img-responsive center-block" alt="about">
+						</div>
+						<div class="col-xs-12 col-sm-8">
+							<p>Criada em 1998 pelo zootecnista Alexandre Rossi, a Cão Cidadão é uma empresa especializada em adestramento em domicílio e em consultas de comportamento. Sua missão é melhorar a integração do cão na família e na sociedade, por meio da educação. </p>
+							<p>Todos os franqueados da Cão Cidadão são treinados e constantemente avaliados, e utilizam o método Adestramento Inteligente – fundamentado em estímulos positivos e em recompensas, o que desperta nos animais o interesse em aprender. </p>
+							<p>A Cão Cidadão ainda promove cursos, palestras, workshops e eventos com foco nos mais diversos públicos: dos profissionais que atuam na área a proprietários interessados em compreender e a educar o bicho de estimação.</p>
+						</div>
+					</div>
+
+					<hr>
+					
+					<div class="row">
+						<div class="hidden-xs col-sm-4">
+							<img src="/images/about/about-04-blue.png" class="img-responsive center-block" alt="about">
+						</div>
+						<div class="col-xs-12 col-sm-8">
+							<p>Criada em 1998 pelo zootecnista Alexandre Rossi, a Cão Cidadão é uma empresa especializada em adestramento em domicílio e em consultas de comportamento. Sua missão é melhorar a integração do cão na família e na sociedade, por meio da educação. </p>
+							<p>Todos os franqueados da Cão Cidadão são treinados e constantemente avaliados, e utilizam o método Adestramento Inteligente – fundamentado em estímulos positivos e em recompensas, o que desperta nos animais o interesse em aprender. </p>
+							<p>A Cão Cidadão ainda promove cursos, palestras, workshops e eventos com foco nos mais diversos públicos: dos profissionais que atuam na área a proprietários interessados em compreender e a educar o bicho de estimação.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+{/body}

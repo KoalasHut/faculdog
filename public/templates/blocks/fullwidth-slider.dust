@@ -1,0 +1,26 @@
+<div class="slides-container">
+	<div id="slides">
+
+		<ul class="slides-container">
+			{# slides}
+			<li>
+				<img src="{image.src}" alt="{title}" title="{title}">
+				<div class="container contrast">
+					<h1>{title}</h1>
+					<p>{description}</p>
+				</div>
+			</li>
+			{/ slides}
+		</ul>
+
+		<nav class="slides-navigation">
+			<a href="#" class="next">
+				<i class="icon-chevron-right"></i>
+			</a>
+			<a href="#" class="prev">
+				<i class="icon-chevron-left"></i>
+			</a>
+		</nav>
+
+	</div>
+</div>
