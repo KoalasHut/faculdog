@@ -15,9 +15,7 @@ module.exports = function (router) {
     	phone: '(15) 9 96608690',
     	phoneRaw: '+5515996608690',
     	cellphone: '(15) 9 96608690',
-    	address: {
-
-    	}
+    	address: {}
     };
 
     // Social
@@ -60,7 +58,6 @@ module.exports = function (router) {
     	},
     	{
     		label: 'servicos',
-    		href: '/servicos'
     		children: [
     			{
 		    		label: 'adestramento',
